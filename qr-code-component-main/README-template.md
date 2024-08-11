@@ -54,27 +54,30 @@ Design elements such as typography, colors, and spacing were meticulously replic
 
 ### Built with
 
-CSS:
-  Custom CSS: Utilized custom CSS to style the elements, including layout typography, and spacing.
-  Variables: Implemented CSS variables (custom properties) for consistent color management (--slate-900, --slate-500, --slate-300, --white).
-  Box Model: Applied the box-sizing: border-box; rule globally to include padding and borders in the element's total width and height.
-  Flexbox: Used Flexbox for layout management, including centering and alignment of elements.
+HTML:
+  Document Structure: Utilized standard HTML5 document structure including <!DOCTYPE html>, <html>, <head>, and <body> elements.
+  Meta Tags: Included meta tags for character set (UTF-8) and viewport settings to ensure proper display on different devices.
+  Favicon: Added a favicon for the site using a PNG image.
+  External Resources: Linked to external CSS and Google Fonts.
 
-Typography:
-  Fonts: Styled text with custom classes (.text-preset-1, .text-preset-2) to define font weight, size, line height, and letter spacing.
-  Font Family: Applied the 'Outfit' font from Google Fonts or a similar source.
+CSS:
+Custom Styles: Applied custom CSS for styling, including layout, typography, and spacing.
+CSS Variables: Defined color variables for consistent color usage across the design.
+Flexbox: Used Flexbox for aligning and centering content within the container.
+Utility Classes: Implemented utility classes for padding and text styling (.padding-200, .text-preset-1, .text-preset-2).
+
+Fonts:
+  Google Fonts: Included the 'Outfit' font from Google Fonts to style the text with a specific font-family and weight range.
+
+Images:
+  QR Code Image: Added an image of a QR code with appropriate alt text for accessibility.
 
 Responsive Design:
-  Padding Classes: Created utility classes for padding (.padding-500, .padding-300, .padding-200) to manage spacing in a flexible manner.
-  Image Styling: Styled images with specific dimensions and rounded corners.
+  Viewport Meta Tag: Ensured the site is responsive and displays correctly on various devices by using the viewport meta tag.
 
-Design System:
-  Color Scheme: Utilized a defined color palette for consistency across the design.
-  Spacing and Layout: Applied spacing and layout styles to maintain design consistency and alignment.
+Attribution:
+  Credits: Included attribution for the challenge and coder using anchor (<a>) elements.
 
-For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
